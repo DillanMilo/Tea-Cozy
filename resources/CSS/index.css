@@ -1,0 +1,113 @@
+body{
+color: seashell; 
+background-color:black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+opacity: 0.9;   
+}
+.logo{
+    color: seashell;
+    height: 50px;
+    margin-left: 10px 10px;
+}
+
+header{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: fixed;
+    }
+
+ul li{
+    float: right;
+  margin: 10px 10px;
+  list-style-type: none;
+  display: flex;
+  height: 69px;
+  }  
+
+a{
+    color: seashell;
+}
+a:hover{
+    color: bisque;
+}
+/* mission */
+.mission{
+    background-image: url(../images/mission-background.jpeg);
+    height: 700px;
+    width: 1200px;
+    margin: 70px auto 0px auto;
+    align-items: center;
+    display:flex
+}
+.missiontext{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: seashell;
+    }
+    /* tea of the month */
+    .featured-tea{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+    }
+    .features{
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+        .features img{
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        /* locations */
+        .locations{
+            background-image: url(../images/locations-background.jpeg);
+            width: 1200px;
+            height: 500px;
+            margin: auto auto;
+            text-align: center;
+        }
+        .locations h2{
+            margin: 0px;
+            padding-top: 69px;
+        }
+        .locationcontainer {
+            display: flex;
+            justify-content: center;
+        }
+        .box {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  color: seashell;
+  padding: 20px;
+  margin-right: 40px;
+  margin-top: 15px;
+  margin-left: 40px;
+  opacity: 1;
+}
+
+.box:last-child {
+  margin-right: 40px; 
+  margin-top: 15px;
+  margin-left: 40px;
+  opacity: 1;
+}
+/* footer contact info */
+.contact{
+    color: seashell;
+    text-align: center;
+    height: 200px;
+}
+.copyright{
+    color: seashell;
+    text-align: left;
+    margin-left: 20px;
+}
